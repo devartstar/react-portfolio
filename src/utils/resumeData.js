@@ -17,6 +17,7 @@ import ToDo from '../assets/images/ToDo.png';
 import Game from '../assets/images/Game.png';
 import Birthday from '../assets/images/Birthday.png';
 import Burger from '../assets/images/Burger.png';
+import resume from '../assets/images/resume.png';
 
 export default {
     name: 'Devjit Choudhury',
@@ -146,13 +147,13 @@ export default {
     projects: [
         {
             tag: 'React',
-            image: 'https://i.pinimg.com/originals/6e/4b/2e/6e4b2e5e016ee15a405be4e09decfdc9.png',
-            title: 'React Project1',
-            caption: 'A short Description',
-            desciption: 'This is the description for my Project 1',
+            image: resume,
+            title: 'Portfolio site',
+            caption: 'A simple Porfolio site.',
+            desciption: 'Totally dynamic and will further modify to make it a portfolio generator',
             links: [
-                { link: 'https://www.google.com', icon: <LanguageIcon /> },
-                { link: 'https://www.google.com', icon: <GitHubIcon /> },
+                { link: 'https://react-portfolio-devjit.herokuapp.com/resume', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/react-portfolio', icon: <GitHubIcon /> },
 
             ]
         },
@@ -160,8 +161,8 @@ export default {
             tag: 'React',
             image: Burger,
             title: 'Burger App',
-            caption: 'A short Description',
-            desciption: 'This is the description for my Project 2',
+            caption: 'Fullfil your cravings for burgers',
+            desciption: 'A fully functioning buger ordering site with Firebase in backend.',
             links: [
                 { link: 'https://tranquil-dawn-51895.herokuapp.com/', icon: <LanguageIcon /> },
                 { link: 'https://github.com/devartstar/Burger', icon: <GitHubIcon /> },
@@ -183,8 +184,8 @@ export default {
             tag: 'CSS',
             image: Outdoors,
             title: 'Natours',
-            caption: 'A short Description',
-            desciption: 'This is the description for my Project 1',
+            caption: 'A simple Nature Exploration site',
+            desciption: 'Tried many new CSS Styling features to make the page look beautiful',
             links: [
                 { link: 'https://devartstar.github.io/My_Travelling_Website/', icon: <LanguageIcon /> },
                 { link: 'https://github.com/devartstar/My_Travelling_Website', icon: <GitHubIcon /> },
@@ -195,8 +196,8 @@ export default {
             tag: 'CSS',
             image: TourSite,
             title: 'Tour Site',
-            caption: 'A short Description',
-            description: 'This is the description for my Project 1',
+            caption: 'A Simple Booking hotel/Flights sites',
+            description: 'Now booking your hotels and flights get easier. build the frontend design of it.',
             links: [
                 { link: 'https://devartstar.github.io/Tour_Site/', icon: <LanguageIcon /> },
                 { link: 'https://github.com/devartstar/Tour_Site', icon: <GitHubIcon /> },
@@ -207,8 +208,8 @@ export default {
             tag: 'CSS',
             image: HomeDealer,
             title: 'Nexter Home Dealership Site',
-            caption: 'A short Description',
-            description: 'This is the description for my Project 1',
+            caption: 'Home Dealership',
+            description: 'Build a front end design for Home Dealership client.',
             links: [
                 { link: 'https://devartstar.github.io/Nexter-HomeDealership/', icon: <LanguageIcon /> },
                 { link: 'https://github.com/devartstar/Nexter-HomeDealership', icon: <GitHubIcon /> },
@@ -219,8 +220,8 @@ export default {
             tag: 'JavaScript',
             image: ToDo,
             title: 'Notes App',
-            caption: 'A short Description',
-            description: 'This is the description for my Project 1',
+            caption: 'Remembering Tasks becomes easier',
+            description: 'Kepp you note and delete them once completed.',
             links: [
                 { link: 'https://devartstar.github.io/To-do-LIst/', icon: <LanguageIcon /> },
                 { link: 'https://github.com/devartstar/To-do-LIst', icon: <GitHubIcon /> },
@@ -231,8 +232,8 @@ export default {
             tag: 'JavaScript',
             image: Game,
             title: 'Games App',
-            caption: 'A short Description',
-            description: 'This is the description for my Project 1',
+            caption: '3 Simple Games',
+            description: 'Enjoy your childhood experience with these 3 simple games build uding vanila JS',
             links: [
                 { link: 'https://devartstar.github.io/Game/', icon: <LanguageIcon /> },
                 { link: 'https://github.com/devartstar/Game', icon: <GitHubIcon /> },
@@ -243,8 +244,8 @@ export default {
             tag: 'JavaScript',
             image: Birthday,
             title: 'Friends Birthday App',
-            caption: 'A short Description',
-            description: 'This is the description for my Project 1',
+            caption: 'A Birthday app for my friends(Only Mobile View)',
+            description: 'Mkae your friends bithday special by gifting him something special and heart touching works.',
             links: [
                 { link: 'https://devartstar.github.io/FriendsBirthday/', icon: <LanguageIcon /> },
                 { link: 'https://github.com/devartstar/FriendsBirthday', icon: <GitHubIcon /> },

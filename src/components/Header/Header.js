@@ -37,7 +37,7 @@ const Header = (props) => {
                     {Object.keys(resumeData.socials).map(key => (
                         <a href={resumeData.socials[key].link} target='_blank' >{resumeData.socials[key].icon}</a>
                     ))}
-                    <CustomButton text={'Hire Me'} icon={<Telegram />} />
+                    <CustomButton text={'Contact'} icon={<Telegram />} />
                 </div>
             </Navbar.Collapse>
         </Navbar>

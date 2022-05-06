@@ -18,6 +18,8 @@ import Game from '../assets/images/Game.png';
 import Birthday from '../assets/images/Birthday.png';
 import Burger from '../assets/images/Burger.png';
 import resume from '../assets/images/resume.png';
+import vueProject1 from '../assets/images/VueProject1.png';
+import vueProject2 from '../assets/images/VueProject2.png';
 
 export default {
     name: 'Devjit Choudhury',
@@ -51,7 +53,7 @@ export default {
         },
     },
 
-    about: 'I am Devjit Choudhury, currently third year student, studying Maths and Computing in IIT Kharagpur. The best way to descrime me would be Creative and one who likes to bring perfection in all of his works. I like working in Front End Developer with an experience of 2+ years. I have been a President Awardee and have won several awards from famous persons like Ratan Tata and Prathibha Patil. \n\nI am well capable of building a codebase from scratch and working with a Team since i have worked for a startup iC2C. I give atmost importance to Perfection and Deadlines .',
+    about: 'I am Devjit Choudhury, currently third year student, studying Maths and Computing in IIT Kharagpur. The best way to describe me would be creative and one who likes to bring perfection in all of his works. I like working in Front End Developer with an experience of 2+ years. I have been a President Awardee and have won several awards from famous persons like Ratan Tata and Prathibha Patil. \n\nI am well capable of building a codebase from scratch and working with a Team since i have worked for a startup iC2C. I give atmost importance to Perfection and Deadlines .',
 
     experiences: [
         {
@@ -252,6 +254,30 @@ export default {
                 { link: 'https://github.com/devartstar/FriendsBirthday', icon: <GitHubIcon /> },
 
             ]
-        }
+        },
+        {
+            tag: 'Vue',
+            image: vueProject1,
+            title: 'Food App',
+            caption: 'A Food Ordering Site.',
+            desciption: 'Building this site to learn Vue to get and post Orders.',
+            links: [
+                { link: 'https://github.com/devartstar/VueJsProject2', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/VueJsProject2', icon: <GitHubIcon /> },
+
+            ]
+        },
+        {
+            tag: 'Vue',
+            image: vueProject2,
+            title: 'Task Tracker',
+            caption: 'Track Task Be Effective',
+            desciption: 'Vue App to create and save tasks and delete them once done.',
+            links: [
+                { link: 'https://github.com/devartstar/VueJsProject3', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/VueJsProject3', icon: <GitHubIcon /> },
+
+            ]
+        },
     ]
 };

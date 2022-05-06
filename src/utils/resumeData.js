@@ -51,11 +51,11 @@ export default {
         },
     },
 
-    about: 'I am Devjit Choudhury, currently a sophomore studying Maths and Computing in IIT Kharagpur. The best way to descrime me would be Creative and one who likes to bring perfection in all of his works. I am a Front End Developer working mainly with React with an experience of 2 years. I have been a President Awardee and have won several awards from famous persons like Ratan Tata and Prathibha Patil. \n\nI am well capable of building a codebase from scratch and working with a Team since i have worked for a startup iC2C. I give atmost importance to Perfection and Deadlines .',
+    about: 'I am Devjit Choudhury, currently third year student, studying Maths and Computing in IIT Kharagpur. The best way to descrime me would be Creative and one who likes to bring perfection in all of his works. I like working in Front End Developer with an experience of 2+ years. I have been a President Awardee and have won several awards from famous persons like Ratan Tata and Prathibha Patil. \n\nI am well capable of building a codebase from scratch and working with a Team since i have worked for a startup iC2C. I give atmost importance to Perfection and Deadlines .',
 
     experiences: [
         {
-            title: 'Front End React Developer - iC2C',
+            title: 'Front End Developer - iC2C',
             date: 'November 2020 - Feburary 2021',
             description: 'I was assigned the lead role in the Front End Team where we had to design and create a website/app in React from the scratch.'
         },
@@ -112,6 +112,7 @@ export default {
             title: 'FRONT END',
             description: [
                 'React JS',
+                'Vue JS',
                 'Javascript',
                 'TypeScript',
                 'Bootstrap',
